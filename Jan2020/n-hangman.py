@@ -15,9 +15,14 @@ import os
 def ClearScreen():
     os.system('cls')
     return
-
-
-
-print("You will NOT see this!")
-ClearScreen()
-print("You will  see this!")
+hangman=input("Input your word ")
+hangmanlen=len(hangman)
+number=0
+print("_ " * hangmanlen)
+guess=input("guess a letter ")
+while hangmanlen>number:
+    print(hangman(number))
+    #if(hangman(number))==guess:
+    #    print("your geuss was correct! ")
+    #else:
+    number=number + 1

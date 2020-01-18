@@ -17,7 +17,10 @@ def ClearScreen():
     return
 
 
-
-print("You will NOT see this!")
+word= input("give me a word: ")
 ClearScreen()
-print("You will  see this!")
+numberOfLetters=len(word)
+print('_ ' * numberOfLetters)
+letter= input("give me a letter: ")
+letterPosition=0
+while letterPosition<1

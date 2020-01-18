@@ -17,12 +17,7 @@ def ClearScreen():
     return
 
 
-<<<<<<< HEAD
 hangman1 = (input("Choose a word and type it down. "))
-=======
-HEY
-print("You will NOT see this!")
->>>>>>> 193b5d2c871e3ea61079cbebaff69c6aac18a9f6
 ClearScreen()
 number_of_letters = len(hangman1)
 print("_ " * number_of_letters)

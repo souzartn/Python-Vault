@@ -17,7 +17,11 @@ def ClearScreen():
     return
 
 
-
-print("You will NOT see this!")
+hangman1 = (input("Choose a word and type it down. "))
 ClearScreen()
-print("You will  see this!")
+number_of_letters = len(hangman1)
+print("_ " * number_of_letters)
+letter1 = (input("Guess a letter."))
+if letter1 == letter in hangman1 :
+    for letter1 in hangman1:
+        print(letter1 in place of _)
